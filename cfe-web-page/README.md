@@ -1,6 +1,6 @@
 # CFE Web Page Project
 
-This project is designed to create a web page for the CFE that will be hosted live. It includes HTML, CSS, and JavaScript files, as well as a system for generating reports in PDF format.
+Este proyecto está diseñado para crear una página web para el CFE que se alojará en directo. Incluye archivos HTML, CSS y JavaScript, así como un sistema para generar informes en formato PDF.
 
 ## Project Structure
 
@@ -8,31 +8,31 @@ This project is designed to create a web page for the CFE that will be hosted li
 cfe-web-page
 ├── src
 │   ├── css
-│   │   └── styles.css        # Styles for the web page
+│   │   └── styles.css        # Estilos
 │   ├── js
-│   │   └── scripts.js        # JavaScript for interactivity
+│   │   └── scripts.js        # JavaScript para interactivity
 │   ├── html
 │   │   └── index.html        # Main HTML file
 │   ├── reports
-│   │   └── generateReport.js  # Logic for generating PDF reports
+│   │   └── generateReport.js  # Logica para generar reportes PDF
 ├── package.json               # NPM configuration file
-├── README.md                  # Project documentation
-└── .gitignore                 # Files to ignore in version control
+├── README.md                  # Documentacion de proyecto
+└── .gitignore                 # Archivos para ignorar la control de version
 ```
 
-## Setup Instructions
+## Instrucciones de instalación
 
-1. Clone the repository to your local machine.
-2. Navigate to the project directory.
-3. Run `npm install` to install the necessary dependencies listed in `package.json`.
-4. Open `src/html/index.html` in your web browser to view the project.
+1. Clone el repositorio en su máquina local.
+2. Navega hasta el directorio del proyecto.
+3. Ejecuta `npm install` para instalar las dependencias necesarias listadas en `package.json`.
+4. Abra `src/html/index.html` en su navegador web para ver el proyecto.
 
-## Usage Guidelines
+## Pautas de uso
 
-- Modify the CSS in `src/css/styles.css` to change the appearance of the web page.
-- Update `src/js/scripts.js` to add or modify interactivity on the web page.
-- Use `src/reports/generateReport.js` to implement the logic for generating PDF reports.
+- Modifique el CSS en `src/css/styles.css` para cambiar la apariencia de la página web.
+- Actualice `src/js/scripts.js` para añadir o modificar interactividad en la página web.
+- Utilice `src/reports/generateReport.js` para implementar la lógica de generación de informes PDF.
 
-## Additional Information
+## Información adicional
 
-For any issues or contributions, please refer to the project's GitHub page or contact the project maintainers.
+Para cualquier problema o contribución, consulte la página GitHub del proyecto o póngase en contacto con el dueño del proyecto
