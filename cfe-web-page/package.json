@@ -1,0 +1,24 @@
+{
+  "name": "cfe-web-page",
+  "version": "1.0.0",
+  "description": "A web page project for CFE with PDF report generation.",
+  "main": "src/html/index.html",
+  "scripts": {
+    "start": "live-server src/html",
+    "build": "echo 'Build script not defined'",
+    "generate-report": "node src/reports/generateReport.js"
+  },
+  "dependencies": {
+    "jspdf": "^2.5.1",
+    "live-server": "^1.2.1"
+  },
+  "devDependencies": {},
+  "keywords": [
+    "web",
+    "cfe",
+    "reports",
+    "pdf"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}

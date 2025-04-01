@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Equipos de Calibración</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js"></script>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <a href="index.html">
+                <img src="../images/logo.png" alt="CFE Logo" class="logo">
+            </a>
+            <h1>Equipos de Calibración</h1>
+        </div>
+    </header>
+    <main>
+        <section>
+            <h2>Lista de Equipos</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Nombre del Equipo</th>
+                        <th>Descripción</th>
+                        <th>Acciones</th>
+                    </tr>
+                </thead>
+                <tbody id="equipment-table">
+                    <!-- Los datos se cargarán dinámicamente desde la base de datos -->
+                </tbody>
+            </table>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 CFE Project</p>
+    </footer>
+    <script src="../js/equipos.js"></script>
+</body>
+</html>
